@@ -1,0 +1,91 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Go Rest API",
+    "collectionId": "01a906ca-8b99-456a-9c79-75fa8f03d5aa",
+    "dateExported": "2024-07-27T01:32:32.951Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3c701f6f-ed2a-4479-9b14-856e095e943c",
+            "colId": "01a906ca-8b99-456a-9c79-75fa8f03d5aa",
+            "containerId": "",
+            "name": "Get Tasks",
+            "url": "http://localhost:3000/tasks",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-25T22:41:12.792Z",
+            "modified": "2024-07-25T22:41:12.792Z",
+            "headers": []
+        },
+        {
+            "_id": "2624e8a1-0c2b-43ac-9902-b4a546208836",
+            "colId": "01a906ca-8b99-456a-9c79-75fa8f03d5aa",
+            "containerId": "",
+            "name": "Add Task",
+            "url": "http://localhost:3000/tasks/add",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-25T22:47:03.604Z",
+            "modified": "2024-07-27T01:16:17.669Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"ID\": 2,\n  \"Name\": \"Task 5\",\n  \"Content\": \"Task Content\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6577cb1e-5663-45f8-afcf-689202fe9c3b",
+            "colId": "01a906ca-8b99-456a-9c79-75fa8f03d5aa",
+            "containerId": "",
+            "name": "Get Task",
+            "url": "http://localhost:3000/tasks/5",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-25T23:01:39.234Z",
+            "modified": "2024-07-27T01:13:13.101Z",
+            "headers": []
+        },
+        {
+            "_id": "c5c051e4-54d2-404f-9420-3dfb07f1ae6a",
+            "colId": "01a906ca-8b99-456a-9c79-75fa8f03d5aa",
+            "containerId": "",
+            "name": "Delete Task",
+            "url": "http://localhost:3000/tasks/3",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-27T01:14:32.675Z",
+            "modified": "2024-07-27T01:14:32.675Z",
+            "headers": []
+        },
+        {
+            "_id": "26dee206-e508-4d3e-ba63-2d49e5a0609f",
+            "colId": "01a906ca-8b99-456a-9c79-75fa8f03d5aa",
+            "containerId": "",
+            "name": "Update Task",
+            "url": "http://localhost:3000/tasks/5",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-07-27T01:18:34.273Z",
+            "modified": "2024-07-27T01:18:34.273Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Name\": \"Task 5\",\n  \"Content\": \"Task Content for ID 5\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "XynewASDITKS4Ue0KJ4Ow8PidJSrbF6yywlhrONptwlClM1CF0Fr9vkBpwVTci3OIJJhrWpIcKzbWDmMMMwGzw"
+}
